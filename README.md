@@ -28,16 +28,17 @@ This script and the information provided are intended for educational and testin
 1. Open your terminal.
 2. Navigate to the script directory.
 3. Give the script execution permissions:
-   'chmod +x attack_script.sh'
+   `chmod +x attack_script.sh`
 4. Run the script with sudo:
-   'sudo ./attack_script.sh'
+   `sudo ./attack_script.sh`
 
 ### 2. Accessing the Device via SSH
 
 After the script has successfully finished running, you can connect to the device using SSH.
 
 **Command:**
-'ssh admin@your_ax3000hv2_ip'
+`ssh admin@your_ax3000hv2_ip`
 
-**Password Information:**
-- Your initial login password is the same as your **192.168.1.1** web interface password.
+**Notes:**
+- Your initial login password is the same as your web interface password.
+- Your modem IP will usually be **192.168.1.1**
