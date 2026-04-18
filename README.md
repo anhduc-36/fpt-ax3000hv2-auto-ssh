@@ -22,7 +22,7 @@ This script and the information provided are intended for educational and testin
 1. Open PowerShell as Administrator.
 2. Navigate to the script directory.
 3. Run the following command:
-   '.\\attack_script.ps1'
+   `.\\attack_script.ps1`
 
 #### On Linux (Bash):
 1. Open your terminal.
