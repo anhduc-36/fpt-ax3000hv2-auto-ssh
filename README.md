@@ -1,5 +1,7 @@
 # AX3000HV2 Auto SSH
 
+This script and the information provided are intended for educational and testing environments. Unauthorized access to networks or devices you do not own or have explicit permission to test is illegal and unethical. Use this tool responsibly.
+
 ## Prerequisites
 
 ### Windows:
