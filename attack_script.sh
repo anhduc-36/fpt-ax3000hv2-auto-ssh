@@ -17,6 +17,7 @@ curl -s --max-time 5 "http://$MODEM_IP/cgi-bin/telnetenable.cgi?telnetenable=1" 
 
 if [ $? -ne 0 ]; then
     echo "[-] Failed to trigger CGI. Check connection to $MODEM_IP"
+    exit
 fi
 
 # Automated Telnet Interaction using Expect
