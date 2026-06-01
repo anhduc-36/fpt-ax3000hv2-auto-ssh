@@ -34,6 +34,7 @@ try
 } catch 
 {
     Write-Host "[-] Failed to trigger CGI. Check connection to $MODEM_IP" -ForegroundColor Red
+    exit
 }
 
 # Automated Telnet Interaction using .NET Sockets 
